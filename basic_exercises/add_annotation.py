@@ -34,6 +34,7 @@ plt.scatter(x0, y0, s=50, color='b')
 plt.plot([x0, x0], [y0, 0], 'k--', lw=1.5)
 
 # method 1
+# https://blog.csdn.net/leaf_zizi/article/details/82886755
 ############################
 plt.annotate(r'$2x=1=%s$' % y0, xy=(x0, y0), xytext=(+30, -30), textcoords='offset points',
              fontsize=16, arrowprops=dict(arrowstyle='->', connectionstyle='arc3, rad=.2'))

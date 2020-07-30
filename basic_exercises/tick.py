@@ -28,6 +28,7 @@ ax.spines['bottom'].set_position(('data', 0))
 ax.spines['left'].set_position(('data', 0))
 
 # Get the xaxis' tick labels.
+# https://blog.csdn.net/dss_dssssd/article/details/84567689
 for label in ax.get_xticklabels() + ax.get_yticklabels():
     # 设置坐标轴上各个刻度的字体大小
     label.set_fontsize(16)
